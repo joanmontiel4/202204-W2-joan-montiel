@@ -30,13 +30,15 @@ a {
 	align-items: center;
 	height: 5rem;
 	padding: 2rem;
+	box-shadow: 0 0 10px #ddd;
+	position: sticky;
 }
 
 .navbar__logo img {
 	height: 4rem;
 }
 
-.navbar__large button {
+button {
 	width: 9rem;
 	height: 3rem;
 	text-align: center;
@@ -49,6 +51,9 @@ a {
 	cursor: pointer;
 	letter-spacing: 0.05rem;
 	border: 3px solid var(--main-color);
+}
+
+.navbar__large button {
 	background: transparent;
 }
 
@@ -66,4 +71,68 @@ a {
 
 .navbar__large ul li {
 	padding: 1rem;
+}
+
+.main__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	color: var(--main-color);
+	padding: 0 0 1rem 0;
+}
+
+h2 {
+	font-size: 4rem;
+}
+
+.main__header button {
+	background-color: var(--main-color);
+	color: white;
+	height: 4rem;
+}
+
+.main__header button:hover {
+	background-color: var(--main-color);
+	color: white;
+}
+
+.main__content__img {
+	display: flex;
+}
+
+.main__img {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 25rem;
+	height: 32rem;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50px;
+	margin: 1rem;
+}
+
+.img1 {
+	background-image: url(/images/01.jpg);
+}
+
+.img2 {
+	background-image: url(/images/02.jpg);
+}
+
+.img3 {
+	background-image: url(/images/03.jpg);
+}
+
+h3,
+h4 {
+	padding: 1.5rem;
+	font-size: 1.5rem;
+	color: white;
 }

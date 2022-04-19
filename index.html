@@ -5,11 +5,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="images/logo2.png" type="image/x-icon" />
 		<title>Pets</title>
 	</head>
 	<body class="container">
-		<header>
-			<nav class="menu">
+		<header class="navbar">
+			<a href="#" class="navbar__logo"
+				><img src="./images/logo2.png" alt="Pets logo"
+			/></a>
+			<nav class="navbar__large">
 				<ul>
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Live Demo</a></li>
@@ -19,21 +23,33 @@
 			</nav>
 		</header>
 		<main>
-			<h1>Pet Activities</h1>
-			<h2>Take a closer look</h2>
-			<button>View All</button>
-			<section class="activities">
-				<div class="activities__toys">
-					<h4>Activities</h4>
-					<h3>Toys Playtime</h3>
+			<section class="main__header">
+				<div class="main_header__title">
+					<h1>Pet Activities</h1>
+					<h2>Take a closer look</h2>
 				</div>
-				<div class="activities__rest">
-					<h4>Activities</h4>
-					<h3>Active Rest</h3>
+				<button>View All</button>
+			</section>
+			<section class="main__content__img">
+				<div class="main__img img1">
+					<div class="filter__container">
+						<h4 class="img__title">Activities</h4>
+						<h3 class="img__subtitle">Toys Playtime</h3>
+					</div>
 				</div>
-				<div class="activities__walks">
-					<h4>Activities</h4>
-					<h3>Game Walks</h3>
+
+				<div class="main__img img2">
+					<div class="filter__container">
+						<h4 class="img__title">Activities</h4>
+						<h3 class="img__subtitle">Active Rest</h3>
+					</div>
+				</div>
+
+				<div class="main__img img3">
+					<div class="filter__container">
+						<h4 class="img__title">Activities</h4>
+						<h3 class="img__subtitle">Game Walks</h3>
+					</div>
 				</div>
 			</section>
 		</main>
