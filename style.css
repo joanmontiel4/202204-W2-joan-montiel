@@ -34,11 +34,31 @@ a {
 	position: sticky;
 }
 
+.navbar ul li a {
+	padding: 1rem 0;
+}
+
+.home:hover {
+	color: var(--main-color);
+	border-bottom: 3px solid var(--main-color);
+}
+
 .navbar__logo img {
 	height: 4rem;
 }
 
-button {
+.dropbtn {
+	width: 9rem;
+	height: 3rem;
+	text-align: center;
+	border: none;
+	font-family: inherit;
+	font-size: 1.2rem;
+	font-weight: 600;
+	background: transparent;
+}
+
+.style__button {
 	width: 9rem;
 	height: 3rem;
 	text-align: center;
@@ -53,11 +73,11 @@ button {
 	border: 3px solid var(--main-color);
 }
 
-.navbar__large button {
+.navbar__large .style__button {
 	background: transparent;
 }
 
-.navbar__large button:hover {
+.navbar__large .style__button:hover {
 	background-color: var(--main-color);
 	color: white;
 }
@@ -97,12 +117,15 @@ h2 {
 }
 
 .main__header button:hover {
-	background-color: var(--main-color);
-	color: white;
+	background-color: transparent;
+	color: var(--main-color);
 }
 
 .main__content__img {
 	display: flex;
+	justify-content: space-between;
+	gap: 10px;
+	max-width: 1800px;
 }
 
 .main__img {
@@ -111,11 +134,25 @@ h2 {
 	justify-content: center;
 	align-items: center;
 	width: 25rem;
-	height: 32rem;
+	height: 28rem;
 	background-position: center;
 	background-size: cover;
 	border-radius: 50px;
 	margin: 1rem;
+	min-width: 300px;
+}
+
+.main__img:hover {
+	filter: brightness(70%);
+}
+
+.filter__container {
+	opacity: 0;
+}
+
+.main__img:hover .filter__container {
+	opacity: 1;
+	filter: brightness(100%); /* NO FUNCIONA */
 }
 
 .img1 {
@@ -135,4 +172,14 @@ h4 {
 	padding: 1.5rem;
 	font-size: 1.5rem;
 	color: white;
+	text-align: center;
+}
+
+h3 {
+	font-size: 2.2rem;
+}
+
+h4 {
+	font-weight: 400;
+	text-transform: uppercase;
 }
