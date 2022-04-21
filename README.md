@@ -15,10 +15,31 @@ The material provided included the following:
 - images with the final design expected for the webpage
 
 The instructions on how the webpage should look like were provided through images
-![Details on the dropdown menu!](../details/desplegable.png "desplegable")
+
+### Details on the dropdown menu.
+
+![Details on the dropdown menu!](./details/desplegable.png "desplegable")
+
+### Hover View All button.
+
 ![Hover View All button!](./details/hover1.png "view all")
+
+### Hover Buy Now button.
+
 ![Hover Buy Now button!](./details/hover2.png "buy now")
+
+### Hover menu links.
+
 ![Hover menu links!](./details/hover3.png "home")
+
+### Hover and text on images.
+
 ![Hover and text on images!](./details/hover4.png "hover image_1")
+
+### Hover and text on images.
+
 ![Hover and text on images!](./details/hover5.png "hover image_2")
-![Hover and text on images!](./details/hover6.pngpng "hover image_3")
+
+### Hover and text on images.
+
+![Hover and text on images!](./details/hover6.png "hover image_3")
