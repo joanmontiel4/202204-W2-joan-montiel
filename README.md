@@ -16,9 +16,9 @@ The material provided included the following:
 
 The instructions on how the webpage should look like were provided through images
 ![Details on the dropdown menu!](../details/desplegable.png "desplegable")
-![Details on the dropdown menu!](../details/hover1.png "desplegable")
-![Details on the dropdown menu!](../details/hover2.png "desplegable")
-![Details on the dropdown menu!](../details/hover3.png "desplegable")
-![Details on the dropdown menu!](../details/hover4.png "desplegable")
-![Details on the dropdown menu!](../details/hover5.png "desplegable")
-![Details on the dropdown menu!](../details/hover6.pngpng "desplegable")
+![Hover View All button!](./details/hover1.png "view all")
+![Hover Buy Now button!](./details/hover2.png "buy now")
+![Hover menu links!](./details/hover3.png "home")
+![Hover and text on images!](./details/hover4.png "hover image_1")
+![Hover and text on images!](./details/hover5.png "hover image_2")
+![Hover and text on images!](./details/hover6.pngpng "hover image_3")
